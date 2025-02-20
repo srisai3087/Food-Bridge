@@ -5,6 +5,7 @@ import React from "react";
 import SDGSection from "../components/SDGSection";
 import WhyDonate from '../components/WhyDonate';
 import Chatbot from "../components/Chatbot"; // ✅ Import Chatbot
+import Footer from '../components/Footer';
 
 const HomePage = ({ User, handleLogout }) => {
   return (
@@ -14,10 +15,11 @@ const HomePage = ({ User, handleLogout }) => {
       <HowItWorks />
       <SDGSection />
       <WhyDonate />
+      <Footer/>
       <Chatbot /> 
      
      
-      <h1>Hello</h1>
+      {/* <h1>Hello</h1> */}
     </>
   );
 };

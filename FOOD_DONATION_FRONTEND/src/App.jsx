@@ -2,6 +2,7 @@ import { BrowserRouter, Routes, Route, Navigate } from 'react-router';
 import HomePage from './pages/homePage';
 import Login from './pages/login';
 import Signup from './pages/signup';
+import '@fortawesome/fontawesome-free/css/all.min.css';
 
 
 import { useEffect, useState } from 'react';
